@@ -6,7 +6,8 @@
 **Java 8**
 
 * Maven
-* JUnit
+* TestNG
+* Selenium
 
 Java Project for SQA Boot Camp Program. 
 
