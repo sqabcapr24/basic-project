@@ -52,4 +52,12 @@ public class Core {
 	public boolean takeScreenshot(String fileName) {
 		return AutoBasics.takeScreenShot(getDriver(), "screenshots\\", fileName, getLog());
 	}
+	
+	public String getProp(String propName){
+		return AutoBasics.getProp(propName, "src/main/resources/", "config.properties", getLog());
+	}
+	
+	public boolean writeProp(String propName, String value){
+		return AutoBasics.writeProp(propName, value, "Configuration Properties File", "src/main/resources/", "config.properties", getLog());
+	}
 }
